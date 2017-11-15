@@ -4,7 +4,7 @@
   "homepage": "https://github.com/matst80/karabinermappings",
   "hostpage": "https://github.com/matst80/karabinermappings",
   "manual": "https://github.com/matst80/karabinermappings",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/matst80/karabinermappings/capsarrows.json",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/matst80/karabinermappings/master/capsarrows.json",
   "rules": [
     {
       "description": "CapsLock wasd to arrows",
