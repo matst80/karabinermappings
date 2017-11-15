@@ -7,14 +7,14 @@
   "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/matst80/karabinermappings/master/capsarrows.json",
   "rules": [
     {
-      "description": "CapsLock wasd to arrows",
+      "description": "Left option wasd to arrows",
       "manipulators": [
         {
           "type": "basic",
           "from": {
             "key_code": "w",
             "modifiers": {
-                "mandatory": ["caps_lock"]
+                "mandatory": ["left_option"]
             }
           },
           "to": [
@@ -28,7 +28,7 @@
             "from": {
               "key_code": "a",
               "modifiers": {
-                  "mandatory": ["caps_lock"]
+                  "mandatory": ["left_option"]
               }
             },
             "to": [
@@ -42,7 +42,7 @@
             "from": {
               "key_code": "s",
               "modifiers": {
-                  "mandatory": ["caps_lock"]
+                  "mandatory": ["left_option"]
               }
             },
             "to": [
@@ -56,7 +56,7 @@
             "from": {
               "key_code": "d",
               "modifiers": {
-                  "mandatory": ["caps_lock"]
+                  "mandatory": ["left_option"]
               }
             },
             "to": [
