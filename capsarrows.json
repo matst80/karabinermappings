@@ -1,0 +1,71 @@
+{
+  "title": "Capslock arrows",
+  "author": "Mats Tornberg",
+  "homepage": "https://github.com/matst80/karabinermappings",
+  "hostpage": "https://github.com/matst80/karabinermappings",
+  "manual": "https://github.com/matst80/karabinermappings",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/matst80/karabinermappings/capsarrows.json",
+  "rules": [
+    {
+      "description": "CapsLock wasd to arrows",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "w",
+            "modifiers": {
+                "mandatory": ["caps_lock"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        },
+        {
+            "type": "basic",
+            "from": {
+              "key_code": "a",
+              "modifiers": {
+                  "mandatory": ["caps_lock"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "left_arrow"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "s",
+              "modifiers": {
+                  "mandatory": ["caps_lock"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "down_arrow"
+              }
+            ]
+          },
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "d",
+              "modifiers": {
+                  "mandatory": ["caps_lock"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "right_arrow"
+              }
+            ]
+          }
+      ]
+    }
+  ]
+}
